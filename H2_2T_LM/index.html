@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+</head>
+<body>
+    <h1>Información de pedidos</h1>
+    <div class="table-responsive">
+        <table class="table table-bordered" id="pedidoTable">
+        </table>
+    </div>
+    
+    <script>
+   fetch('pedidos.json')
+   .then(response=> rsponse.json())
+   .then(data=> {const pedidoTable = document.getElementById('productosVendidosTable');
+//Muestra productos de Trimestre 1 de 2021
+mostrarProductos(data[2021]['Trimestre1'], pedidoTable);
+//Muestra productos de Trimestre 4 de 2022
+mostrarProductos(data[2022]['Trimestre4'], pedidoTable);
+})
+    .catch(error => console.error('Error:', error));
+function mostrarProductos(data, table){
+    if(data && Array.isArray(data) && data.length > 0){
+        data.forEach(cliente => {
+            if(cliente.pedidos && Array.isArray(cliente.pedidos)){
+                cliente.pedidos.forEach(pedido => {
+                    if(pedido.productos && Array.isArray(pedido.productos)){
+                        pedido.productos.forEach(articulo => {
+                            const row = table.insertRow();
+                            row.innerHTML = `
+                            <td>${articulo.nombre_producto}</td>
+                            <td>${cliente.nombre}${cliente.apellido}</td>
+                            <td>${pedido.fecha_compra}</td>
+                            <td>${articulo.unidades}</td>
+                            <td>${pedido.total_factura}</td>
+                            `
+                        })
+                    }
+                })
+            }
+        })
+    }
+}
+</script>
+</body>
+</html>

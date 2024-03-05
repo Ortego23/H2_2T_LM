@@ -1,0 +1,2355 @@
+{
+    "pedidos": {
+      "2021": {
+        "trimestre1": [
+          {
+            "cliente": {
+              "nombre": "Juan",
+              "apellidos": "Cuesta",
+              "telefono": "123456789",
+              "direccion": {
+                "calle": "Desengaño 21",
+                "ciudad": "Madrid",
+                "codigo_postal": "12345",
+                "provincia": "Madrid"
+              },
+              "correo_electronico": "juancuesta@gmail.com",
+              "fecha_inclusion": "2021-01-01"
+            },
+            "pedido": {
+              "numero_pedido": "001",
+              "fecha_compra": "2021-01-05",
+              "fecha_entrega": "2021-01-10",
+              "total_factura": 100.00,
+              "productos": [
+                {
+                  "nombre": "Televisor",
+                  "referencia": "REF001",
+                  "precio": 100.00,
+                  "unidades": 1
+                }
+              ]
+            }
+          }
+          ,
+          {
+              "cliente": {
+                  "nombre": "Emilio",
+                  "apellidos": "Delgado",
+                  "telefono": "987654321",
+                  "direccion": { 
+                      "calle": "Desengaño 21",
+                      "ciudad": "Madrid",
+                      "codigo_postal": "54321",
+                      "provincia": "Madrid"
+                  },
+                  "correo_electronico": "emiliodelgado@gmail.com",
+                  "fecha_inclusion": "2021-01-02"
+              },
+              "pedido": {
+                  "numero_pedido": "002",
+                  "fecha_compra": "2021-01-05",
+                  "fecha_entrega": "2021-01-10",
+                  "total_factura": 50.00,
+                  "productos": [
+                      {
+                          "nombre": "Vaporeta",
+                          "referencia": "REF002",
+                          "precio": 50.00,
+                          "unidades": 1
+                      }
+                  ]
+              }
+          }
+          
+          ,{
+            "cliente": {
+                "nombre": "Andrés",
+                "apellidos": "Guerra",
+                "telefono": "987654322",
+                "direccion": {
+                    "calle": "Desengaño 21",
+                    "ciudad": "Madrid",
+                    "codigo_postal": "54321",
+                    "provincia": "Madrid"
+                },
+                "correo_electronico": "andresguerra@gmail.com",
+                "fecha_inclusion": "2021-01-02"
+            },
+            "pedido": {
+                "numero_pedido": "003",
+                "fecha_compra": "2021-01-10",
+                "fecha_entrega": "2021-01-15",
+                "total_factura": 80.00,
+                "productos": [
+                    {
+                        "nombre": "Camiseta CR7",
+                        "referencia": "REF003",
+                        "precio": 80.00,
+                        "unidades": 1
+                    }
+
+                ]
+            }
+        }
+        ,{
+          "cliente": {
+              "nombre": "Marisa",
+              "apellidos": "Benito",
+              "telefono": "987654322",
+              "direccion": {
+                  "calle": "Desengaño 21",
+                  "ciudad": "Madrid",
+                  "codigo_postal": "54321",
+                  "provincia": "Madrid"
+              },
+              "correo_electronico": "marisabenito@gmail.com",
+              "fecha_inclusion": "2021-01-02"
+          },
+          "pedido": {
+              "numero_pedido": "004",
+              "fecha_compra": "2021-01-10",
+              "fecha_entrega": "2021-01-15",
+              "total_factura": 40.00,
+              "productos": [
+                  {
+                      "nombre": "Paquete grande de tabaco",
+                      "referencia": "REF004",
+                      "precio": 20.00,
+                      "unidades": 2
+                  }
+
+              ]
+          }
+      }
+      ,{
+        "cliente": {
+            "nombre": "Higinio",
+            "apellidos": "Hereida",
+            "telefono": "987654322",
+            "direccion": {
+                "calle": "Desengaño 21",
+                "ciudad": "Madrid",
+                "codigo_postal": "54321",
+                "provincia": "Madrid"
+            },
+            "correo_electronico": "higiniohereida@gmail.com",
+            "fecha_inclusion": "2021-01-02"
+        },
+        "pedido": {
+            "numero_pedido": "005",
+            "fecha_compra": "2021-02-05",
+            "fecha_entrega": "2021-01-10",
+            "total_factura": 60.00,
+            "productos": [
+                {
+                    "nombre": "Sofá",
+                    "referencia": "REF005",
+                    "precio": 60.00,
+                    "unidades": 1
+                }
+
+            ]
+        }
+    }
+    ,{
+      "cliente": {
+          "nombre": "Belén",
+          "apellidos": "López",
+          "telefono": "987654322",
+          "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "54321",
+              "provincia": "Madrid"
+          },
+          "correo_electronico": "belenlopez@gmail.com",
+          "fecha_inclusion": "2021-01-02"
+      },
+      "pedido": {
+          "numero_pedido": "006",
+          "fecha_compra": "2021-02-15",
+          "fecha_entrega": "2021-02-20",
+          "total_factura": 50.00,
+          "productos": [
+              {
+                  "nombre": "Mesita de noche",
+                  "referencia": "REF006",
+                  "precio": 50.00,
+                  "unidades": 1
+              }
+
+          ]
+      }
+  }
+  ,{
+    "cliente": {
+        "nombre": "Amador",
+        "apellidos": "Rivas",
+        "telefono": "987654322",
+        "direccion": {
+            "calle": "Desengaño 21",
+            "ciudad": "Madrid",
+            "codigo_postal": "54321",
+            "provincia": "Madrid"
+        },
+        "correo_electronico": "amadorrivas@gmail.com",
+        "fecha_inclusion": "2021-01-02"
+    },
+    "pedido": {
+        "numero_pedido": "007",
+        "fecha_compra": "2021-01-15",
+        "fecha_entrega": "2021-01-20",
+        "total_factura": 40.00,
+        "productos": [
+            {
+                "nombre": "Piano",
+                "referencia": "REF007",
+                "precio": 80.00,
+                "unidades": 1
+            }
+
+        ]
+    }
+}
+,{
+  "cliente": {
+      "nombre": "Fermín",
+      "apellidos": "Trujillo",
+      "telefono": "987654322",
+      "direccion": {
+          "calle": "Desengaño 21",
+          "ciudad": "Madrid",
+          "codigo_postal": "54321",
+          "provincia": "Madrid"
+      },
+      "correo_electronico": "fermintrujillo@gmail.com",
+      "fecha_inclusion": "2021-01-02"
+  },
+  "pedido": {
+      "numero_pedido": "008",
+      "fecha_compra": "2021-01-15",
+      "fecha_entrega": "2021-01-20",
+      "total_factura": 20.00,
+      "productos": [
+          {
+              "nombre": "Lámpara ",
+              "referencia": "REF008",
+              "precio": 20.00,
+              "unidades": 1
+          }
+
+      ]
+  }
+}
+,{
+  "cliente": {
+      "nombre": "Antonio",
+      "apellidos": "Recio",
+      "telefono": "987654322",
+      "direccion": {
+          "calle": "Desengaño 21",
+          "ciudad": "Madrid",
+          "codigo_postal": "54321",
+          "provincia": "Madrid"
+      },
+      "correo_electronico": "antoniorecio@gmail.com",
+      "fecha_inclusion": "2021-01-02"
+  },
+  "pedido": {
+      "numero_pedido": "009",
+      "fecha_compra": "2021-01-15",
+      "fecha_entrega": "2021-01-20",
+      "total_factura": 100.00,
+      "productos": [
+          {
+              "nombre": "Nevera",
+              "referencia": "REF009",
+              "precio": 100.00,
+              "unidades": 1
+          }
+
+      ]
+  }
+}
+,{
+  "cliente": {
+      "nombre": "Vicente",
+      "apellidos": "Maroto",
+      "telefono": "987654322",
+      "direccion": {
+          "calle": "Desengaño 21",
+          "ciudad": "Madrid",
+          "codigo_postal": "54321",
+          "provincia": "Madrid"
+      },
+      "correo_electronico": "vicentemaroto@gmail.com",
+      "fecha_inclusion": "2021-01-02"
+  },
+  "pedido": {
+      "numero_pedido": "010",
+      "fecha_compra": "2021-01-15",
+      "fecha_entrega": "2021-01-20",
+      "total_factura": 100.00,
+      "productos": [
+          {
+              "nombre": "Televisor",
+              "referencia": "REF010",
+              "precio": 100.00,
+              "unidades": 1
+          }
+
+      ]
+  }
+}
+        ]
+        ,
+        "trimestre2": [
+          {
+            "cliente": {
+              "nombre": "Ivan",
+              "apellidos": "Menendez",
+              "telefono": "123456789",
+              "direccion": {
+                "calle": "Desengaño 21",
+                "ciudad": "Madrid",
+                "codigo_postal": "12345",
+                "provincia": "Madrid"
+              },
+              "correo_electronico": "ivanmenendez@gmail.com",
+              "fecha_inclusion": "2021-01-01"
+            },
+            "pedido": {
+              "numero_pedido": "011",
+              "fecha_compra": "2021-04-05",
+              "fecha_entrega": "2021-04-10",
+              "total_factura": 10.00,
+              "productos": [
+                {
+                  "nombre": "Recambios de mechero",
+                  "referencia": "REF011",
+                  "precio": 10.00,
+                  "unidades": 1
+                }
+              ]
+            }
+          }
+          ,{
+            "cliente": {
+              "nombre": "Elena",
+              "apellidos": "Rojas",
+              "telefono": "123456789",
+              "direccion": {
+                "calle": "Desengaño 21",
+                "ciudad": "Madrid",
+                "codigo_postal": "12345",
+                "provincia": "Madrid"
+              },
+              "correo_electronico": "elenarojas@gmail.com",
+              "fecha_inclusion": "2021-01-01"
+            },
+            "pedido": {
+              "numero_pedido": "012",
+              "fecha_compra": "2021-01-05",
+              "fecha_entrega": "2021-01-10",
+              "total_factura": 50.00,
+              "productos": [
+                {
+                  "nombre": "Proyector",
+                  "referencia": "REF012",
+                  "precio": 50.00,
+                  "unidades": 1
+                }
+              ]
+            }
+          }
+          ,{
+            "cliente": {
+              "nombre": "Luciano",
+              "apellidos": "Rojas",
+              "telefono": "123456789",
+              "direccion": {
+                "calle": "Desengaño 21",
+                "ciudad": "Madrid",
+                "codigo_postal": "12345",
+                "provincia": "Madrid"
+              },
+              "correo_electronico": "lucianorojas@gmail.com",
+              "fecha_inclusion": "2021-01-01"
+            },
+            "pedido": {
+              "numero_pedido": "013",
+              "fecha_compra": "2021-01-05",
+              "fecha_entrega": "2021-01-10",
+              "total_factura": 60.00,
+              "productos": [
+                {
+                  "nombre": "Camisa",
+                  "referencia": "REF013",
+                  "precio": 60.00,
+                  "unidades": 1
+                }
+              ]
+            }
+          }
+          ,{
+            "cliente": {
+              "nombre": "Maria",
+              "apellidos": "Ortego",
+              "telefono": "123456789",
+              "direccion": {
+                "calle": "Desengaño 21",
+                "ciudad": "Madrid",
+                "codigo_postal": "12345",
+                "provincia": "Madrid"
+              },
+              "correo_electronico": "mariaortego@gmail.com",
+              "fecha_inclusion": "2021-01-01"
+            },
+            "pedido": {
+              "numero_pedido": "014",
+              "fecha_compra": "2021-01-05",
+              "fecha_entrega": "2021-01-10",
+              "total_factura": 100.00,
+              "productos": [
+                {
+                  "nombre": "Disco Taylor Swift",
+                  "referencia": "REF014",
+                  "precio": 100.00,
+                  "unidades": 1
+                }
+              ]
+            }
+          }        
+        ,{
+          "cliente": {
+            "nombre": "Luis",
+            "apellidos": "Gonzalez",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "luisgonzalez@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "015",
+            "fecha_compra": "2021-01-05",
+            "fecha_entrega": "2021-01-10",
+            "total_factura": 20.00,
+            "productos": [
+              {
+                "nombre": "Paquete grande de tabaco",
+                "referencia": "REF015",
+                "precio": 20.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Diego",
+            "apellidos": "Manzano",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "diegomanzano@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "016",
+            "fecha_compra": "2021-01-05",
+            "fecha_entrega": "2021-01-10",
+            "total_factura": 100.00,
+            "productos": [
+              {
+                "nombre": "Camiseta Bellingham",
+                "referencia": "REF016",
+                "precio": 100.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Beltrán",
+            "apellidos": "Pérez",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "beltranperez@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "017",
+            "fecha_compra": "2021-01-05",
+            "fecha_entrega": "2021-01-10",
+            "total_factura": 60.00,
+            "productos": [
+              {
+                "nombre": "Chaqueta corteiz",
+                "referencia": "REF017",
+                "precio": 60.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Daniel",
+            "apellidos": "Sánchez",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "danielsanchez@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "018",
+            "fecha_compra": "2021-01-05",
+            "fecha_entrega": "2021-01-10",
+            "total_factura": 50.00,
+            "productos": [
+              {
+                "nombre": "Chaqueta hardcore",
+                "referencia": "REF018",
+                "precio": 50.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "David",
+            "apellidos": "Salido",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "davidsalido@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "019",
+            "fecha_compra": "2021-01-05",
+            "fecha_entrega": "2021-01-10",
+            "total_factura": 40.00,
+            "productos": [
+              {
+                "nombre": "Camiseta North Face",
+                "referencia": "REF019",
+                "precio": 40.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Javier",
+            "apellidos": "Ortego",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "javierortego@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "020",
+            "fecha_compra": "2021-01-05",
+            "fecha_entrega": "2021-01-10",
+            "total_factura": 60.00,
+            "productos": [
+              {
+                "nombre": "Teclado Corsair",
+                "referencia": "REF020",
+                "precio": 60.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ]
+        ,"trimestre3": [
+          {
+            "cliente": {
+              "nombre": "Cristiano",
+              "apellidos": "Ronaldo",
+              "telefono": "123456789",
+              "direccion": {
+                "calle": "Desengaño 21",
+                "ciudad": "Madrid",
+                "codigo_postal": "12345",
+                "provincia": "Madrid"
+              },
+              "correo_electronico": "cristianoronaldo@gmail.com",
+              "fecha_inclusion": "2021-01-01"
+            },
+            "pedido": {
+              "numero_pedido": "021",
+              "fecha_compra": "2021-01-05",
+              "fecha_entrega": "2021-01-10",
+              "total_factura": 100.00,
+              "productos": [
+                {
+                  "nombre": "Televisor",
+                  "referencia": "REF021",
+                  "precio": 100.00,
+                  "unidades": 1
+                }
+              ]
+            }
+          }
+          ,{
+            "cliente": {
+              "nombre": "Lionel",
+              "apellidos": "Messi",
+              "telefono": "123456789",
+              "direccion": {
+                "calle": "Desengaño 21",
+                "ciudad": "Madrid",
+                "codigo_postal": "12345",
+                "provincia": "Madrid"
+              },
+              "correo_electronico": "lionelmessi@gmail.com",
+              "fecha_inclusion": "2021-01-01"
+            },
+            "pedido": {
+              "numero_pedido": "022",
+              "fecha_compra": "2021-01-05",
+              "fecha_entrega": "2021-01-10",
+              "total_factura": 50.00,
+              "productos": [
+                {
+                  "nombre": "Proyector",
+                  "referencia": "REF022",
+                  "precio": 50.00,
+                  "unidades": 1
+                }
+              ]
+            }
+          }
+          ,{
+            "cliente": {
+              "nombre": "Andrés",
+              "apellidos": "Iniesta",
+              "telefono": "123456789",
+              "direccion": {
+                "calle": "Desengaño 21",
+                "ciudad": "Madrid",
+                "codigo_postal": "12345",
+                "provincia": "Madrid"
+              },
+              "correo_electronico": "andresiniesta@gmail.com",
+              "fecha_inclusion": "2021-01-01"
+            },
+            "pedido": {
+              "numero_pedido": "023",
+              "fecha_compra": "2021-01-05",
+              "fecha_entrega": "2021-01-10",
+              "total_factura": 10.00,
+              "productos": [
+                {
+                  "nombre": "Recambios de mechero",
+                  "referencia": "REF023",
+                  "precio": 10.00,
+                  "unidades": 1
+                }
+              ]
+            }
+          }
+          ,{
+            "cliente": {
+              "nombre": "Daniel",
+              "apellidos": "Alves",
+              "telefono": "123456789",
+              "direccion": {
+                "calle": "Desengaño 21",
+                "ciudad": "Madrid",
+                "codigo_postal": "12345",
+                "provincia": "Madrid"
+              },
+              "correo_electronico": "danielalves@gmail.com",
+              "fecha_inclusion": "2021-01-01"
+            },
+            "pedido": {
+              "numero_pedido": "024",
+              "fecha_compra": "2021-01-05",
+              "fecha_entrega": "2021-01-10",
+              "total_factura": 20.00,
+              "productos": [
+                {
+                  "nombre": "Paquete grande de tabaco",
+                  "referencia": "REF024",
+                  "precio": 20.00,
+                  "unidades": 1
+                }
+              ]
+            }
+          }
+          ,{
+            "cliente": {
+              "nombre": "Iker",
+              "apellidos": "Casillas",
+              "telefono": "123456789",
+              "direccion": {
+                "calle": "Desengaño 21",
+                "ciudad": "Madrid",
+                "codigo_postal": "12345",
+                "provincia": "Madrid"
+              },
+              "correo_electronico": "ikercasillas@gmail.com",
+              "fecha_inclusion": "2021-01-01"
+            },
+            "pedido": {
+              "numero_pedido": "025",
+              "fecha_compra": "2021-01-05",
+              "fecha_entrega": "2021-01-10",
+              "total_factura": 100.00,
+              "productos": [
+                {
+                  "nombre": "Televisor",
+                  "referencia": "REF025",
+                  "precio": 100.00,
+                  "unidades": 1
+                }
+              ]
+            }
+          }
+          ,{
+            "cliente": {
+              "nombre": "Jude",
+              "apellidos": "Bellingham",
+              "telefono": "123456789",
+              "direccion": {
+                "calle": "Desengaño 21",
+                "ciudad": "Madrid",
+                "codigo_postal": "12345",
+                "provincia": "Madrid"
+              },
+              "correo_electronico": "judebellingham@gmail.com",
+              "fecha_inclusion": "2021-01-01"
+            },
+            "pedido": {
+              "numero_pedido": "026",
+              "fecha_compra": "2021-01-05",
+              "fecha_entrega": "2021-01-10",
+              "total_factura": 60.00,
+              "productos": [
+                {
+                  "nombre": "Chaqueta corteiz",
+                  "referencia": "REF026",
+                  "precio": 60.00,
+                  "unidades": 1
+                }
+              ]
+            }
+          }
+          ,{
+            "cliente": {
+              "nombre": "José",
+              "apellidos": "Mourinho",
+              "telefono": "123456789",
+              "direccion": {
+                "calle": "Desengaño 21",
+                "ciudad": "Madrid",
+                "codigo_postal": "12345",
+                "provincia": "Madrid"
+              },
+              "correo_electronico": "josemourinho@gmail.com",
+              "fecha_inclusion": "2021-01-01"
+            },
+            "pedido": {
+              "numero_pedido": "027",
+              "fecha_compra": "2021-01-05",
+              "fecha_entrega": "2021-01-10",
+              "total_factura": 100.00,
+              "productos": [
+                {
+                  "nombre": "Televisor",
+                  "referencia": "REF027",
+                  "precio": 100.00,
+                  "unidades": 1
+                }
+              ]
+            }
+          }
+          ,{
+            "cliente": {
+              "nombre": "Pep",
+              "apellidos": "Guardiola",
+              "telefono": "123456789",
+              "direccion": {
+                "calle": "Desengaño 21",
+                "ciudad": "Madrid",
+                "codigo_postal": "12345",
+                "provincia": "Madrid"
+              },
+              "correo_electronico": "pepguardiola@gmail.com",
+              "fecha_inclusion": "2021-01-01"
+            },
+            "pedido": {
+              "numero_pedido": "028",
+              "fecha_compra": "2021-01-05",
+              "fecha_entrega": "2021-01-10",
+              "total_factura": 10.00,
+              "productos": [
+                {
+                  "nombre": "Colonia",
+                  "referencia": "REF028",
+                  "precio": 10.00,
+                  "unidades": 1
+                }
+              ]
+            }
+          }
+          ,{
+            "cliente": {
+              "nombre": "Mesut",
+              "apellidos": "Ozil",
+              "telefono": "123456789",
+              "direccion": {
+                "calle": "Desengaño 21",
+                "ciudad": "Madrid",
+                "codigo_postal": "12345",
+                "provincia": "Madrid"
+              },
+              "correo_electronico": "mesutozil@gmail.com",
+              "fecha_inclusion": "2021-01-01"
+            },
+            "pedido": {
+              "numero_pedido": "029",
+              "fecha_compra": "2021-01-05",
+              "fecha_entrega": "2021-01-10",
+              "total_factura": 100.00,
+              "productos": [
+                {
+                  "nombre": "Televisor",
+                  "referencia": "REF029",
+                  "precio": 100.00,
+                  "unidades": 1
+                }
+              ]
+            }
+          }
+          ,{
+            "cliente": {
+              "nombre": "Vicente",
+              "apellidos": "Del bosque",
+              "telefono": "123456789",
+              "direccion": {
+                "calle": "Desengaño 21",
+                "ciudad": "Madrid",
+                "codigo_postal": "12345",
+                "provincia": "Madrid"
+              },
+              "correo_electronico": "vicentedelbosque@gmail.com",
+              "fecha_inclusion": "2021-01-01"
+            },
+            "pedido": {
+              "numero_pedido": "030",
+              "fecha_compra": "2021-01-05",
+              "fecha_entrega": "2021-01-10",
+              "total_factura": 40.00,
+              "productos": [
+                {
+                  "nombre": "Altavoces",
+                  "referencia": "REF030",
+                  "precio": 40.00,
+                  "unidades": 1
+                }
+              ]
+            }
+          }
+        ]
+        ,"trimestre4":[
+          {
+            "cliente": {
+              "nombre": "Alberto",
+              "apellidos": "Guerra",
+              "telefono": "123456789",
+              "direccion": {
+                "calle": "Desengaño 21",
+                "ciudad": "Madrid",
+                "codigo_postal": "12345",
+                "provincia": "Madrid"
+              },
+              "correo_electronico": "albertoguerra@gmail.com",
+              "fecha_inclusion": "2021-01-01"
+            },
+            "pedido": {
+              "numero_pedido": "031",
+              "fecha_compra": "2021-01-05",
+              "fecha_entrega": "2021-01-10",
+              "total_factura": 10.00,
+              "productos": [
+                {
+                  "nombre": "Recambios de mechero",
+                  "referencia": "REF031",
+                  "precio": 10.00,
+                  "unidades": 1
+                }
+              ]
+            }
+          }
+          ,{
+            "cliente": {
+              "nombre": "Adriel",
+              "apellidos": "Medina",
+              "telefono": "123456789",
+              "direccion": {
+                "calle": "Desengaño 21",
+                "ciudad": "Madrid",
+                "codigo_postal": "12345",
+                "provincia": "Madrid"
+              },
+              "correo_electronico": "adrielmedina@gmail.com",
+              "fecha_inclusion": "2021-01-01"
+            },
+            "pedido": {
+              "numero_pedido": "032",
+              "fecha_compra": "2021-01-05",
+              "fecha_entrega": "2021-01-10",
+              "total_factura": 60.00,
+              "productos": [
+                {
+                  "nombre": "Camiseta North Face",
+                  "referencia": "REF032",
+                  "precio": 60.00,
+                  "unidades": 1
+                }
+              ]
+            }
+          }
+          ,{
+            "cliente": {
+              "nombre": "Gabriel",
+              "apellidos": "Elías",
+              "telefono": "123456789",
+              "direccion": {
+                "calle": "Desengaño 21",
+                "ciudad": "Madrid",
+                "codigo_postal": "12345",
+                "provincia": "Madrid"
+              },
+              "correo_electronico": "gabrielelias@gmail.com",
+              "fecha_inclusion": "2021-01-01"
+            },
+            "pedido": {
+              "numero_pedido": "033",
+              "fecha_compra": "2021-01-05",
+              "fecha_entrega": "2021-01-10",
+              "total_factura": 100.00,
+              "productos": [
+                {
+                  "nombre": "Camiseta CR7",
+                  "referencia": "REF033",
+                  "precio": 100.00,
+                  "unidades": 1
+                }
+              ]
+            }
+          }
+          ,{
+            "cliente": {
+              "nombre": "Pablo",
+              "apellidos": "Castillo",
+              "telefono": "123456789",
+              "direccion": {
+                "calle": "Desengaño 21",
+                "ciudad": "Madrid",
+                "codigo_postal": "12345",
+                "provincia": "Madrid"
+              },
+              "correo_electronico": "pablocastillo@gmail.com",
+              "fecha_inclusion": "2021-01-01"
+            },
+            "pedido": {
+              "numero_pedido": "034",
+              "fecha_compra": "2021-01-05",
+              "fecha_entrega": "2021-01-10",
+              "total_factura": 60.00,
+              "productos": [
+                {
+                  "nombre": "Teclado Corsair",
+                  "referencia": "REF034",
+                  "precio": 60.00,
+                  "unidades": 1
+                }
+              ]
+            }
+          }
+          ,{
+            "cliente": {
+              "nombre": "Pablo",
+              "apellidos": "Martínez",
+              "telefono": "123456789",
+              "direccion": {
+                "calle": "Desengaño 21",
+                "ciudad": "Madrid",
+                "codigo_postal": "12345",
+                "provincia": "Madrid"
+              },
+              "correo_electronico": "pablomartinez@gmail.com",
+              "fecha_inclusion": "2021-01-01"
+            },
+            "pedido": {
+              "numero_pedido": "035",
+              "fecha_compra": "2021-01-05",
+              "fecha_entrega": "2021-01-10",
+              "total_factura": 100.00,
+              "productos": [
+                {
+                  "nombre": "Televisor",
+                  "referencia": "REF035",
+                  "precio": 100.00,
+                  "unidades": 1
+                }
+              ]
+            }
+          }
+          ,{
+            "cliente": {
+              "nombre": "Mario",
+              "apellidos": "De la Peña",
+              "telefono": "123456789",
+              "direccion": {
+                "calle": "Desengaño 21",
+                "ciudad": "Madrid",
+                "codigo_postal": "12345",
+                "provincia": "Madrid"
+              },
+              "correo_electronico": "mariodelapeña@gmail.com",
+              "fecha_inclusion": "2021-01-01"
+            },
+            "pedido": {
+              "numero_pedido": "036",
+              "fecha_compra": "2021-01-05",
+              "fecha_entrega": "2021-01-10",
+              "total_factura": 100.00,
+              "productos": [
+                {
+                  "nombre": "Camiseta Bellingham",
+                  "referencia": "REF036",
+                  "precio": 100.00,
+                  "unidades": 1
+                }
+              ]
+            }
+          }
+          ,{
+            "cliente": {
+              "nombre": "Mario",
+              "apellidos": "Arroyo",
+              "telefono": "123456789",
+              "direccion": {
+                "calle": "Desengaño 21",
+                "ciudad": "Madrid",
+                "codigo_postal": "12345",
+                "provincia": "Madrid"
+              },
+              "correo_electronico": "marioarroyo@gmail.com",
+              "fecha_inclusion": "2021-01-01"
+            },
+            "pedido": {
+              "numero_pedido": "037",
+              "fecha_compra": "2021-01-05",
+              "fecha_entrega": "2021-01-10",
+              "total_factura": 60.00,
+              "productos": [
+                {
+                  "nombre": "Teclado Corsair",
+                  "referencia": "REF037",
+                  "precio": 60.00,
+                  "unidades": 1
+                }
+              ]
+            }
+          }
+          ,{
+            "cliente": {
+              "nombre": "Adrián",
+              "apellidos": "López",
+              "telefono": "123456789",
+              "direccion": {
+                "calle": "Desengaño 21",
+                "ciudad": "Madrid",
+                "codigo_postal": "12345",
+                "provincia": "Madrid"
+              },
+              "correo_electronico": "adrianlopez@gmail.com",
+              "fecha_inclusion": "2021-01-01"
+            },
+            "pedido": {
+              "numero_pedido": "038",
+              "fecha_compra": "2021-01-05",
+              "fecha_entrega": "2021-01-10",
+              "total_factura": 100.00,
+              "productos": [
+                {
+                  "nombre": "Camiseta CR7",
+                  "referencia": "REF038",
+                  "precio": 100.00,
+                  "unidades": 1
+                }
+              ]
+            }
+          }
+          ,{
+            "cliente": {
+              "nombre": "Eric",
+              "apellidos": "Ortega",
+              "telefono": "123456789",
+              "direccion": {
+                "calle": "Desengaño 21",
+                "ciudad": "Madrid",
+                "codigo_postal": "12345",
+                "provincia": "Madrid"
+              },
+              "correo_electronico": "ericortega@gmail.com",
+              "fecha_inclusion": "2021-01-01"
+            },
+            "pedido": {
+              "numero_pedido": "039",
+              "fecha_compra": "2021-01-05",
+              "fecha_entrega": "2021-01-10",
+              "total_factura": 60.00,
+              "productos": [
+                {
+                  "nombre": "Chaqueta corteiz",
+                  "referencia": "REF039",
+                  "precio": 60.00,
+                  "unidades": 1
+                }
+              ]
+            }
+          }
+          ,{
+            "cliente": {
+              "nombre": "Enrique",
+              "apellidos": "Montalvo",
+              "telefono": "123456789",
+              "direccion": {
+                "calle": "Desengaño 21",
+                "ciudad": "Madrid",
+                "codigo_postal": "12345",
+                "provincia": "Madrid"
+              },
+              "correo_electronico": "enriquemontalvo@gmail.com",
+              "fecha_inclusion": "2021-01-01"
+            },
+            "pedido": {
+              "numero_pedido": "040",
+              "fecha_compra": "2021-01-05",
+              "fecha_entrega": "2021-01-10",
+              "total_factura": 60.00,
+              "productos": [
+                {
+                  "nombre": "Proyector",
+                  "referencia": "REF040",
+                  "precio": 60.00,
+                  "unidades": 1
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "2022": {
+       "trimestre1":[
+        {
+          "cliente": {
+            "nombre": "Javier",
+            "apellidos": "Maroto",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "javiermaroto@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "001",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 100.00,
+            "productos": [
+              {
+                "nombre": "Televisor",
+                "referencia": "REF001",
+                "precio": 100.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Estela",
+            "apellidos": "Reynolds",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "estelareynolds@gmail.com",
+            "fecha_inclusion": "2022-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "002",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 10.00,
+            "productos": [
+              {
+                "nombre": "Recambios de mechero",
+                "referencia": "REF002",
+                "precio": 10.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Enrique",
+            "apellidos": "Pastor",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "enriquepastor@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "003",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 60.00,
+            "productos": [
+              {
+                "nombre": "Camisa",
+                "referencia": "REF003",
+                "precio": 60.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Jose Miguel",
+            "apellidos": "Cuesta",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "josemiguelcuesta@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "004",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 60.00,
+            "productos": [
+              {
+                "nombre": "Camiseta North Face",
+                "referencia": "REF004",
+                "precio": 60.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Mariano",
+            "apellidos": "Rajoy",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "marianorajoy@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "005",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 60.00,
+            "productos": [
+              {
+                "nombre": "Altavoces",
+                "referencia": "REF005",
+                "precio": 60.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Mariano",
+            "apellidos": "Delgado",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "marianodelgado@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "006",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 100.00,
+            "productos": [
+              {
+                "nombre": "Televisor",
+                "referencia": "REF006",
+                "precio": 100.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Jack",
+            "apellidos": "Ji Zhou",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "jackjizhou@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "007",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 60.00,
+            "productos": [
+              {
+                "nombre": "Teclado Corsair",
+                "referencia": "REF007",
+                "precio": 60.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "David",
+            "apellidos": "Pérez",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "davidperez@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "008",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 60.00,
+            "productos": [
+              {
+                "nombre": "Teclado Corsair",
+                "referencia": "REF008",
+                "precio": 60.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "David",
+            "apellidos": "Palmero",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "davidpalmero@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "009",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 100.00,
+            "productos": [
+              {
+                "nombre": "Televisor",
+                "referencia": "REF009",
+                "precio": 100.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Iván",
+            "apellidos": "Bastero",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "ivanbastero@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "010",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 10.00,
+            "productos": [
+              {
+                "nombre": "Peine",
+                "referencia": "REF010",
+                "precio": 10.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+       ]
+       ,"trimestre2":[
+        {
+          "cliente": {
+            "nombre": "Marta",
+            "apellidos": "Díaz",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "martadiaz@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "011",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 100.00,
+            "productos": [
+              {
+                "nombre": "Televisor",
+                "referencia": "REF011",
+                "precio": 100.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Logan",
+            "apellidos": "Paul",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "loganpaul@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "012",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 60.00,
+            "productos": [
+              {
+                "nombre": "Mesita de noche",
+                "referencia": "REF012",
+                "precio": 60.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Rubén",
+            "apellidos": "Doblas",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "rubendoblas@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "013",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 60.00,
+            "productos": [
+              {
+                "nombre": "Teclado Corsair",
+                "referencia": "REF013",
+                "precio": 60.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Guillermo",
+            "apellidos": "Del Toro",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "guillermodeltoro@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "014",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 100.00,
+            "productos": [
+              {
+                "nombre": "Proyector",
+                "referencia": "REF014",
+                "precio": 100.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Stephen",
+            "apellidos": "King",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "stephenking@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "015",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 100.00,
+            "productos": [
+              {
+                "nombre": "Proyector",
+                "referencia": "REF0015",
+                "precio": 100.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Daniel",
+            "apellidos": "Ergueta",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "danielergueta@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "016",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 60.00,
+            "productos": [
+              {
+                "nombre": "Teclado Corsair",
+                "referencia": "REF016",
+                "precio": 60.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Shweta",
+            "apellidos": "Cotillas",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "shwetacotillas@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "017",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 100.00,
+            "productos": [
+              {
+                "nombre": "Disco Taylor Swift",
+                "referencia": "REF017",
+                "precio": 100.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Leyre",
+            "apellidos": "Sánchez",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "leyresanchez@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "018",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 100.00,
+            "productos": [
+              {
+                "nombre": "Disco Taylor Swift",
+                "referencia": "REF018",
+                "precio": 100.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Angela",
+            "apellidos": "Carrero",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "angelacarrero@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "019",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 20.00,
+            "productos": [
+              {
+                "nombre": "Paquete grande de tabaco",
+                "referencia": "REF019",
+                "precio": 20.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Mia",
+            "apellidos": "Khalifa",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "miakhalifa@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "020",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 100.00,
+            "productos": [
+              {
+                "nombre": "Camiseta Bellingham",
+                "referencia": "REF020",
+                "precio": 100.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+       ]
+       ,"trimestre3":[
+        {
+          "cliente": {
+            "nombre": "Mia",
+            "apellidos": "Malkova",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "miamalkova@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "021",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 100.00,
+            "productos": [
+              {
+                "nombre": "Televisor",
+                "referencia": "REF021",
+                "precio": 100.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Abella",
+            "apellidos": "Danger",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "abelladanger@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "022",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 20.00,
+            "productos": [
+              {
+                "nombre": "Paquete grande de tabaco",
+                "referencia": "REF022",
+                "precio": 20.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Ginebra",
+            "apellidos": "Belucci",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "ginebrabelucci@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "023",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 100.00,
+            "productos": [
+              {
+                "nombre": "Chaqueta corteiz",
+                "referencia": "REF023",
+                "precio": 100.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Apolonia",
+            "apellidos": "Lapiedra",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "apolonialapiedra@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "024",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 100.00,
+            "productos": [
+              {
+                "nombre": "Chaqueta hardcore",
+                "referencia": "REF024",
+                "precio": 100.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Shaiden",
+            "apellidos": "Rogue",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "shaidenrogue@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "025",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 100.00,
+            "productos": [
+              {
+                "nombre": "Camiseta CR7",
+                "referencia": "REF025",
+                "precio": 100.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Annabelle",
+            "apellidos": "Redd",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "annabelleredd@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "026",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 100.00,
+            "productos": [
+              {
+                "nombre": "Televisor",
+                "referencia": "REF026",
+                "precio": 100.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Johnny",
+            "apellidos": "Sins",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "johnnysins@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "027",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 100.00,
+            "productos": [
+              {
+                "nombre": "Proyector",
+                "referencia": "REF027",
+                "precio": 100.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Lana",
+            "apellidos": "Rhoades",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "lanarhoades@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "028",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 100.00,
+            "productos": [
+              {
+                "nombre": "Televisor",
+                "referencia": "REF028",
+                "precio": 100.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Maria",
+            "apellidos": "Alonso",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "mariaalonso@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "029",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 100.00,
+            "productos": [
+              {
+                "nombre": "Camiseta Bellingham",
+                "referencia": "REF029",
+                "precio": 100.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Laura",
+            "apellidos": "Pastor",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "laurapastor@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "030",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 100.00,
+            "productos": [
+              {
+                "nombre": "Televisor",
+                "referencia": "REF030",
+                "precio": 100.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+       ]
+       ,"trimestre4":[
+        {
+          "cliente": {
+            "nombre": "Mónica",
+            "apellidos": "De hoyos",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "monicadehoyos@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "031",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 60.00,
+            "productos": [
+              {
+                "nombre": "Chaqueta hardcore",
+                "referencia": "REF031",
+                "precio": 60.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Marta",
+            "apellidos": "Reberdito",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "martareberdito@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "032",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 20.00,
+            "productos": [
+              {
+                "nombre": "Recambios de mechero",
+                "referencia": "REF032",
+                "precio": 20.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Ana",
+            "apellidos": "Quintana",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "anaquintana@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "033",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 100.00,
+            "productos": [
+              {
+                "nombre": "Televisor",
+                "referencia": "REF033",
+                "precio": 100.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Marta",
+            "apellidos": "Vallaure",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "martavallaure@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "034",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 100.00,
+            "productos": [
+              {
+                "nombre": "Proyector",
+                "referencia": "REF034",
+                "precio": 100.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Daniel",
+            "apellidos": "De la Torre",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "danieldelatorre@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "035",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 100.00,
+            "productos": [
+              {
+                "nombre": "Televisor",
+                "referencia": "REF035",
+                "precio": 100.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Jorji",
+            "apellidos": "Costava",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "jorjicostava@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "036",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 20.00,
+            "productos": [
+              {
+                "nombre": "Paquete grande de tabaco",
+                "referencia": "REF036",
+                "precio": 20.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Adrián",
+            "apellidos": "Merino",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "adrianmerino@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "037",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 100.00,
+            "productos": [
+              {
+                "nombre": "Camiseta CR7",
+                "referencia": "REF037",
+                "precio": 100.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Jose David",
+            "apellidos": "Silván",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "josedavidsilvan@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "038",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 10.00,
+            "productos": [
+              {
+                "nombre": "Recambios de mechero",
+                "referencia": "REF038",
+                "precio": 10.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Rodrigo",
+            "apellidos": "Iribarren",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "rodrigoiribarren@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "039",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 20.00,
+            "productos": [
+              {
+                "nombre": "Paquete grande de tabaco",
+                "referencia": "REF039",
+                "precio": 20.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+        ,{
+          "cliente": {
+            "nombre": "Robert",
+            "apellidos": "Happy",
+            "telefono": "123456789",
+            "direccion": {
+              "calle": "Desengaño 21",
+              "ciudad": "Madrid",
+              "codigo_postal": "12345",
+              "provincia": "Madrid"
+            },
+            "correo_electronico": "roberthappy@gmail.com",
+            "fecha_inclusion": "2021-01-01"
+          },
+          "pedido": {
+            "numero_pedido": "001",
+            "fecha_compra": "2022-01-05",
+            "fecha_entrega": "2022-01-10",
+            "total_factura": 100.00,
+            "productos": [
+              {
+                "nombre": "Televisor",
+                "referencia": "REF001",
+                "precio": 100.00,
+                "unidades": 1
+              }
+            ]
+          }
+        }
+       ]
+      }
+    }
+  }
